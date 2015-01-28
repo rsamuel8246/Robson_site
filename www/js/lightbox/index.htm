@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jQuery lightBox plugin</title>
+
+	<link rel="stylesheet" type="text/css" href="../style-projects-jquery.css" />    
+    
+    <!-- Arquivos utilizados pelo jQuery lightBox plugin -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+    <!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin -->
+    
+    <!-- Ativando o jQuery lightBox plugin -->
+    <script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+    </script>
+   	<style type="text/css">
+	/* jQuery lightBox plugin - Gallery style */
+	#gallery {
+		background-color: yellow;
+		padding: 10px;
+		width: 520px;
+	}
+	#gallery ul { list-style: none; }
+	#gallery ul li { display: inline; }
+	#gallery ul img {
+		border: 5px solid yellow;
+		border-width: 5px 5px 20px;
+	}
+	#gallery ul a:hover img {
+		border: 5px solid #fff;
+		border-width: 5px 5px 20px;
+		color: #fff;
+	}
+	#gallery ul a:hover { color: #fff; }
+	</style>
+</head>
+
+<body>
+
+<h2 id="example">Example</h2>
+<p>Click in the image and see the <strong>jQuery lightBox plugin</strong> in action.</p>
+<div id="gallery">
+    <ul>
+               <li>
+            <a href="lightbox/photos/fnac.jpg" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery').lightBox();">
+                <img src="lightbox/thumbs/fnac_th.png" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="lightbox/photos/OZ.jpg" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
+                <img src="lightbox/thumbs/OZ_th.png" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="lightbox/photos/daiken.jpg" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
+                <img src="lightbox/thumbs/daiken_th.png" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="lightbox/photos/manager.jpg" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
+                <img src="lightbox/thumbs/manager_th.png" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="lightbox/photos/love.jpg" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
+                <img src="lightbox/thumbs/love_th.png" width="100" height="100" alt="" />
+            </a>
+        </li>
+        
+         <li>
+            <a href="lightbox/photos/novelas.jpg" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
+                <img src="lightbox/thumbs/novelas_th.png" width="100" height="100" alt="" />
+            </a>
+        </li>
+          <li>
+            <a href="lightbox/photos/tabela.jpg" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
+                <img src="lightbox/thumbs/tabela_th.png" width="100" height="100" alt="" />
+            </a>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,243 @@
+/*!
+ * Bootstrap Responsive v2.2.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+
+
+@media (min-width: 641px) and (max-width: 979px) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+ 
+}
+
+
+
+@media (min-width: 1200px) {
+  .row {
+    margin-left: -30px;
+    *zoom: 1;
+  }
+  .row:before,
+  .row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .row:after {
+    clear: both;
+  }
+
+  .container,
+   {
+     width: 986px;
+}
+
+.span12 {
+  width: 981px;
+}
+
+.span11 {
+  width: 903px;
+}
+
+.span10 {
+  width: 820px;
+}
+
+.span9 {
+  width: 737px;
+}
+
+.span8 {
+  width: 654px;
+}
+
+.span7 {
+  width: 571px;
+}
+
+.span6 {
+  width: 488px;
+}
+
+.span5 {
+  width: 405px;
+}
+
+.span4 {
+  width: 322px;
+}
+
+.span3 {
+  width: 239px;
+}
+
+.span2 {
+  width: 156px;
+}
+
+.span1 {
+  width: 73px;
+}
+  
+  .row-fluid {
+    width: 100%;
+    *zoom: 1;
+  }
+  .row-fluid:before,
+  .row-fluid:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .row-fluid:after {
+    clear: both;
+  }
+  
+  .row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+  }
+  
+  input,
+  textarea,
+  {
+    margin-left: 0;
+  }
+  .espaco{
+  width: 100%;
+  margin: 20px 0 0 0;
+}
+  
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .row {
+    margin-left: -20px;
+    *zoom: 1;
+  }
+  .row:before,
+  .row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .row:after {
+    clear: both;
+  }
+ 
+  .container,
+  {
+    width: 724px;
+  }
+  .span12 {
+    width: 724px;
+  }
+  .span11 {
+    width: 662px;
+  }
+  .span10 {
+    width: 600px;
+  }
+  .span9 {
+    width: 538px;
+  }
+  .span8 {
+    width: 476px;
+  }
+  .span7 {
+    width: 414px;
+  }
+  .span6 {
+    width: 352px;
+  }
+  .span5 {
+    width: 290px;
+  }
+  .span4 {
+    width: 228px;
+  }
+  .span3 {
+    width: 166px;
+  }
+  .span2 {
+    width: 104px;
+  }
+  .span1 {
+    width: 42px;
+  }
+  
+  .row-fluid {
+    width: 100%;
+    *zoom: 1;
+  }
+  .row-fluid:before,
+  .row-fluid:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .row-fluid:after {
+    clear: both;
+  }
+  
+  
+  input,
+  textarea,
+   {
+    margin-left: 0;
+  }
+  
+
+    .input-xxlarge {
+  width: 433px;
+}
+
+    .espaco{
+  width: 50%;
+  margin: 20px 0 0 0;
+}
+}
+
+
+
+@media (max-width: 640px) {
+  .nav-collapse {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+ 
+  .form-horizontal .control-label {
+    float: none;
+    width: auto;
+    padding-top: 0;
+    text-align: left;
+  }
+  .form-horizontal .controls {
+    margin-left: 0;
+  }
+  
+    .espaco{
+  width: 70%;
+  margin: 20px 0 0 0;
+}
+  
+
+  .input-xxlarge {
+  width: 73%;
+}
+}
+
+
+@media (min-width: 640px) {
+  .nav-collapse.collapse {
+    height: auto !important;
+    overflow: visible !important;
+  }
+  
+}

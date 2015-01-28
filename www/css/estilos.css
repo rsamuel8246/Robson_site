@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #454242;
+    
+}
+
+img,
+picture,
+video,
+embed {
+   max-width: 100%;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*teste */
+
+/* ==|== Estilos Principais ================================================== */
+
+.container {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+#sobre{
+	width: 100%;
+	float: left;
+	background-color: #e9eafa;
+	padding: 20px 30px 40px 30px;
+
+
+}
+
+#portfolio{
+	width: 100%;
+	float: left;
+	padding: 40px 20px;
+}
+
+#contato{
+	width: 100%;
+	float:left;
+	padding: 20px 30px;
+	background-color: #e8680c;
+	color:#fff;
+	background: url(../imagens/bg_contato.gif);
+}
+
+.formulario{
+
+	margin-top: 40px;
+}
+
+#alerta{
+
+	margin-bottom: 20px;
+	padding: 2px 5px;
+	background-color: #f00;
+	 -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+          border: solid 2px #fff;
+}
+
+
+
+.menu{
+	color:#fff;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+
+.imagem{
+	float: left;
+	margin-right: 28px;
+}
+
+
+
+.imagem_topo{
+	float: left;
+	margin: 120px 0px 0 30px;
+}
+
+.logo{	
+	
+	float: left;
+	margin: 140px 0 0 40px;
+}
+
+.redes{
+	width: 100%;
+	height: 150px;
+	margin: 50px 0;
+	float: left;
+	background-color: #fff;
+
+}
+
+.redes ul li{
+	list-style: none;
+	float: left;
+	width: 130px;
+	height: 130px;
+	margin: 10px 95px ;
+}
+
+.face{
+	
+	background: url('../imagens/face.png') no-repeat;
+
+}
+
+.face:hover{
+	background: url('../imagens/face_h.png') no-repeat;
+	cursor: pointer;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+
+.twitter{
+	background: url('../imagens/twitter.png') no-repeat;
+
+	
+}
+
+.twitter:hover{
+	background: url('../imagens/twitter_h.png') no-repeat;
+	cursor: pointer;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+
+.linkedin {
+	background: url('../imagens/linkedin.png') no-repeat;
+}
+
+.linkedin:hover{
+	background: url('../imagens/linkedin_h.png') no-repeat;
+	cursor: pointer;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+
+.subtitulo{
+	font-size: 1.2em;
+	color:#e8680c;
+}
+
+
+
+h1{
+	font-size: 2em;
+	font-weight: bold;
+
+}
+
+h2{
+	font-size: 1.5em;
+	color: #e8680c;
+}
+
+h3{
+	font-size: 1.5em;
+	color:#fff;
+}
